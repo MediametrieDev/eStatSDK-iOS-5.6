@@ -8,7 +8,7 @@ Repository for eStat iOS framework, version 5.6
 - Install the library on your project (see below)
 - If your application don't already use google cast sdk, you have to add it
 
-###Installation with CocoaPods
+### Installation with CocoaPods
 
 CocoaPods is a dependency manager which automates and simplifies the process of using 3rd-party libraries in your projects.
 
