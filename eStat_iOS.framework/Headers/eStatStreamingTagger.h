@@ -9,15 +9,15 @@
 #import "eStatTagger.h"
 #import "eStatStreamingTaggerDelegate.h"
 #import "eStatStreamingConfig.h"
-#if TARGET_OS_IOS
-#import <GoogleCast/GoogleCast.h>
-#endif
+//#if TARGET_OS_IOS
+//#import <GoogleCast/GoogleCast.h>
+//#endif
 
-#if TARGET_OS_IOS
-@interface eStatStreamingTagger : eStatTagger<GCKSessionManagerListener,GCKRemoteMediaClientListener>
-#else
+//#if TARGET_OS_IOS
+//@interface eStatStreamingTagger : eStatTagger<GCKSessionManagerListener,GCKRemoteMediaClientListener>
+//#else
 @interface eStatStreamingTagger : eStatTagger
-#endif
+//#endif
 #pragma mark - Initialization
 ////////////////////////////////////////////////////////////////////////////////
 
